@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protección de Contraseñas - Sitio de Seguridad</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f7f7f7;
+            color: #333;
+            font-family: 'Arial', sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        h1, h2 {
+            color: #0056b3;
+            font-family: 'Helvetica', sans-serif;
+        }
+
+        p, li {
+            color: #555;
+            font-size: 18px;
+        }
+
+        footer {
+            background-color: #0056b3;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li::before {
+            content: '•';
+            color: #0056b3;
+            font-weight: bold;
+            display: inline-block; 
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        /* Estilo del botón de volver */
+        .btn-volver {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: #0056b3;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        /* Ajustes de pantalla para dispositivos más pequeños */
+        @media (max-width: 768px) {
+            .btn-volver {
+                top: 10px;
+                left: 10px;
+                padding: 8px 12px;
+                font-size: 14px;
+            }
+
+            h1 {
+                margin-top: 60px;
+            }
+        }
+
+        /* Asegura que el botón no se superponga con el título en cualquier pantalla */
+        .container-header {
+            position: relative;
+            padding-top: 60px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container container-header">
+            <!-- Botón de volver -->
+            <a href="index.html" class="btn-volver">Volver</a>
+            <h1 class="mt-5">Protección de Contraseñas</h1>         
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="mt-5"> 
+                <h2>Consejos para Crear y Mantener Contraseñas Seguras</h2> 
+                <div style="display: flex; justify-content: center;">
+                    <img src="images/pass2.jpeg" alt="Seguridad en Redes Sociales" style="max-width: 100%; height: auto;">
+                </div>
+                <p>Una contraseña segura es fundamental para proteger tu información en línea. Aquí hay algunos consejos para crear y mantener contraseñas seguras:</p>
+                <ul>
+                    <li><strong>Longitud:</strong> Utiliza contraseñas largas (mínimo 12 caracteres) para aumentar su complejidad y resistencia a los ataques.</li>
+                    <li><strong>Combinación de caracteres:</strong> Incluye una combinación de letras mayúsculas, minúsculas, números y caracteres especiales en tus contraseñas.</li>
+                    <li><strong>Evita información personal:</strong> No utilices información personal fácilmente accesible, como tu nombre, fecha de nacimiento o nombres de familiares, en tus contraseñas.</li>
+                    <li><strong>Contraseñas únicas:</strong> Utiliza contraseñas únicas para cada cuenta en línea para evitar la propagación de compromisos de seguridad.</li>
+                    <li><strong>Actualización regular:</strong> Cambia tus contraseñas periódicamente y siempre después de haber compartido una contraseña o después de un posible compromiso de seguridad.</li>
+                    <li><strong>Utiliza un administrador de contraseñas:</strong> Considera el uso de un administrador de contraseñas confiable para generar y almacenar contraseñas seguras de forma segura.</li>
+                </ul>
+                <section class="mb-5 d-flex justify-content-center">
+                    <img src="images/pass.jpg" alt="Seguridad en Redes Sociales" style="max-width: 75%; height: auto;">
+                </section>
+            </div>
+    </main>
+    <footer class="mt-5">
+        <div class="container">
+            <p><strong style="color: black;">
+                
+                <li>Leonel Gabino Cruz</li>
+                <li>Julian Retana Gonzalez</li>
+                <li>Gabriel Francisco Alonso</li>
+                <li>Omar Gonzalez Gonzalez</li>
+            </strong></p>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="images/facebook.png" alt="Facebook" style="width: 50px; height: 50px;" />
+            </a>
+            
+            <a href="https://x.com/" target="_blank">
+                <img src="images/xcom.png" alt="X.com" style="width: 50px; height: 50px;" />
+            </a>
+            
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="images/instagram.png" alt="Instagram" style="width: 50px; height: 50px;" />
+            </a>
+            
+            <a href="https://github.com/" target="_blank">
+                <img src="images/github.png" alt="GitHub" style="width: 50px; height: 50px;" />
+            </a>
+            
+            </a>        
+        </div>
+    </footer>
+</body>
+</html>
+
+

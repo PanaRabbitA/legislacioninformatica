@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consejos Generales de Seguridad - Sitio de Seguridad</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f7f7f7;
+            color: #333;
+            font-family: 'Arial', sans-serif;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        h1, h2 {
+            color: #0056b3;
+            font-family: 'Helvetica', sans-serif;
+        }
+
+        p {
+            color: #555;
+        }
+
+        footer {
+            background-color: #0056b3;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li::before {
+            content: '•';
+            color: #0056b3;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        .imagen-seguridad {
+            width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        /* Estilo del botón de volver */
+        .btn-volver {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: #0056b3;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        /* Ajustes de pantalla para dispositivos más pequeños */
+        @media (max-width: 768px) {
+            .btn-volver {
+                top: 10px;
+                left: 10px;
+                padding: 8px 12px;
+                font-size: 14px;
+            }
+
+            h1 {
+                margin-top: 60px; /* Espacio extra para evitar superposición con el botón en pantallas pequeñas */
+            }
+        }
+
+        /* Asegura que el botón no se superponga con el título en cualquier pantalla */
+        .container-header {
+            position: relative;
+            padding-top: 60px; /* Espacio adicional para que el botón esté separado del título */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container container-header">
+            <!-- Botón de volver -->
+            <a href="index.html" class="btn-volver">Volver</a>
+
+            <h1 class="mt-5">Consejos Generales de Seguridad Informática</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="mt-5">
+                <h2>Consejos Básicos</h2>
+
+                <div style="display: flex; justify-content: center;">
+                    <img src="images/imagen2.png" alt="Logo del Sitio de Seguridad" style="width: 25%; height: auto;" />
+                </div>
+
+                <p>
+                    Mantenerse seguro en línea es esencial en el mundo digital actual. Aquí hay algunos consejos básicos para proteger tu información personal y asegurar tu privacidad en internet:
+                </p>
+                <ul>
+                    <li><strong>Actualiza tus dispositivos:</strong> Mantén tu sistema operativo, aplicaciones y programas actualizados para protegerte contra vulnerabilidades de seguridad conocidas.</li>
+                    <li><strong>Utiliza contraseñas seguras:</strong> Crea contraseñas largas y complejas que sean difíciles de adivinar y úsalas de manera única para cada cuenta.</li>
+                    <li><strong>Evita enlaces y correos electrónicos sospechosos:</strong> No hagas clic en enlaces no solicitados o descargues archivos adjuntos de fuentes desconocidas, ya que pueden ser ataques de phishing.</li>
+                    <li><strong>Utiliza una conexión segura:</strong> Evita utilizar redes Wi-Fi públicas para realizar transacciones financieras o acceder a información sensible. Utiliza una VPN si es necesario.</li>
+                </ul>
+
+                <img src="images/imagen3.jpeg" alt="Consejos de Seguridad" class="imagen-seguridad" style="width: 25%; height: auto;" />
+                
+            </section>
+        </div>
+    </main>
+    <footer class="mt-5">
+        <div class="container">
+            <p><strong style="color: black;">
+                <li>Leonel Gabino Cruz</li>
+                <li>Julian Retana Gonzalez</li>
+                <li>Gabriel Francisco Alonso</li>
+                <li>Omar Gonzalez Gonzalez</li>    
+            </strong></p>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="images/facebook.png" alt="Facebook" style="width: 50px; height: 50px;" />
+            </a>
+            
+            <a href="https://x.com/" target="_blank">
+                <img src="images/xcom.png" alt="X.com" style="width: 50px; height: 50px;" />
+            </a>
+            
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="images/instagram.png" alt="Instagram" style="width: 50px; height: 50px;" />
+            </a>
+            
+            <a href="https://github.com/" target="_blank">
+                <img src="images/github.png" alt="GitHub" style="width: 50px; height: 50px;" />
+            </a>
+            
+            </a>        
+        </div>
+    </footer>
+</body>
+</html>
+
